@@ -1,0 +1,101 @@
+
+.head-banner {
+    background-color: rgba(27, 27, 27, 1);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.head-banner ul {
+    position: fixed;
+    top: 0;
+    right: 15px;
+}
+
+.head-banner ul li{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.head-banner ul li a {
+    text-decoration: none;
+}
+
+.head-banner ul li a:link .head-banner ul li a:visited{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: medium;
+}
+
+.head-banner ul li a:hover .head-banner ul li a:active{
+    color: grey;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.page {
+    margin: 15px;
+    background-color: white;
+    padding: 30px;
+}
+
+.content {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.sign {
+    font-size: x-small;
+    color: grey;
+}
+
+.pic-group {
+    border: grey solid 1px;
+    height: auto;
+    width: 340px;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pic-group div {
+    width: 340px;
+    padding: 5px;
+}
+
+.pic-group img {
+    padding: 5px;
+    border: grey solid 1px;
+}
+
+table {
+    border-collapse: collapse;
+    font-weight: bold;
+    width: 100%;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+thead {
+    background-color: black;
+    color: white;
+}
+
+tfoot {
+    background-color: grey;
+}
+
+.hint {
+    color: grey;
+    font-size: x-small;
+}
